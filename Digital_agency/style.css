@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+}
+
+/* <!-- $$$$$$$$$$$$ start  section navbar %%%%%%  --> */
+.nav-bar {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    height: 50px;
+}
+
+.nav-bar .navbar .navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0px 10px;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* <!-- $$$$$$$$$$$$ End  section navbar %%%%%%  --> */
+
+
+/* <!-- $$$$$$$$$$$$ start  section banner %%%%%%  --> */
+.banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+}
+
+.banner a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner .promo-totle {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px
+}
+
+.banner .watch-btn {
+    width: 45px;
+    margin: 20px;
+}
+
+.banner .bottom-img {
+    width: 100%;
+}
+
+/* <!-- $$$$$$$$$$$$ start  section servies %%%%%%  --> */
+.servies {
+    padding: 80px 0px;
+}
+
+.servies .container .col>img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.title::before {
+    content: "";
+    width: 140px;
+    height: 5px;
+    display: block;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    transform: translateY(63px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title::after {
+    content: "";
+    width: 50px;
+    height: 10px;
+    display: block;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    transform: translateY(8px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servies .container .row .Seriveses {
+    padding: 20px;
+}
+
+.servies .container .col-md-4 .title-promo {
+    margin-top: 20px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.servies .btn {
+    border: none;
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/* <!-- $$$$$$$$$$$$ ENd  section servies %%%%%%  --> */
+
+/* <!-- $$$$$$$$$$$$ start  section about us  %%%%%%  --> */
+.about-us{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-us .title-about{
+    font-weight: 600;
+    margin-top: 8%;
+    font-size: 40px;
+    margin-left: 23px;
+}
+.about-us .container .row .about-item>ul{
+    margin-left: 10px;
+}
+.about-us .container .row .about-item>ul>li{
+    margin: 25px 0px;
+}
+
+.testimonials{
+    margin: 100px 0px;
+}
+.testimonials .testimonial{
+    border-left: 4px solid #a517ba;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.testimonials .testimonial img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.testimonials .testimonial .user-detial{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.soical-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+.soical-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.soical-media .soical-icone img{
+    width: 60px;
+    transition: 0.5s;
+}
+.soical-icone a:hover img {
+    transform: translateY(-15px);
+}
+
+.footer-area{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+}
+.footer-area .footer-img{
+    width: 100%;
+}
+.footer-area .footer-box{
+    padding: 20px;
+}
+.footer-area .footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa-solid{
+    font-size: 16px;
+    margin-right: 5px;
+    padding-top: 5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    text-align: center;
+}
+
+input.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.hr-line{
+    width: 100%;
+    height: 1px;
+    border: dotted #fff;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        margin-left: auto;
+    }
+}
+
+@media (max-width : 768px) {
+    ul.navbar-nav.ml-auto {
+        text-align: center;
+    }
+}
